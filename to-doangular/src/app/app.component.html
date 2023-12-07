@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="caja">
+    <h1>To-do</h1>
+    <h4>Agrega aqui las tareas que nesecites</h4>
+    <br>
+
+    <form (submit)='addTask(user,desc)' >
+      <input type="text" #user>
+      <br>
+      <textarea #desc id="desc">
+      </textarea>
+      <br>
+      <p>{{error}}</p>
+
+
+      <button>Crear</button>
+
+    </form>
+
+  </div>
+
+  <div class="tasksCard" *ngFor="let h of task">
+    <ul>
+      <li>
+
+        <h3>{{h.title}}</h3>
+        <p>{{h.desc}}</p>
+      </li>
+    </ul>
+    <button (click)="deleteTask(h.title)">completar</button>
+    
+  </div>
+</div>

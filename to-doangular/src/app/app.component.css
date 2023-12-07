@@ -1,0 +1,68 @@
+* {
+  color: beige;
+  font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: medium;
+  height:35px ;
+}
+
+form p {
+  font-size: smaller;
+  color: coral;
+}
+#desc{
+  margin-top: 2%;
+  width: 55%;
+  font-size: medium;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+}
+
+.caja {
+  padding: 5%;
+  border-radius: 10px;
+  background-color: teal;
+  margin: 6%;
+}
+li {
+  list-style: none;
+}
+.tasksCard{
+    width: 80%;
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 2%;
+    margin-top: 1%;
+    border: 1px solid black;
+}
+.caja  button{
+  margin-left: 84%;
+  padding: 1%;
+  width: 14%;
+  border-radius: 5px;
+  margin-top: 3%;
+  border: none;
+}
+
+.caja button:hover{
+  background-color: aquamarine;
+  cursor: pointer;
+}
+.tasksCard button{
+  margin-left: 84%;  
+  border: none;
+  padding: 1%;
+  width: auto;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+.tasksCard button:hover{
+  background-color: green;
+}
